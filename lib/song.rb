@@ -3,15 +3,15 @@ class Song
   @@all = []
   def initialize(name)
     @name = name
-    @@all << self 
+    @@all << self
   end
   def artist_name
     if !@artist
-    else 
-      @artist.name 
-    end 
-  end 
+    else
+      @artist.name
+    end
+  end
   def self.all
-    @@all 
-  end 
+    @@all
+  end
 end 
