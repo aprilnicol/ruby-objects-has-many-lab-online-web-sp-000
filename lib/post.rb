@@ -3,15 +3,15 @@ class Post
   @@all = []
   def initialize(title)
     @title = title
-    @@all << self 
+    @@all << self
   end
   def author_name
     if !@author
-    else 
-      @author.name 
+    else
+      @author.name
     end
   end
-  def self.all 
+  def self.all
     @all
   end 
-end 
+end
